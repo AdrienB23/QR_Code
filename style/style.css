@@ -1,0 +1,68 @@
+@font-face {
+    font-family: Outfit;
+    src: url("../font/Outfit/Outfit-Regular.ttf");
+}
+
+@font-face {
+    font-family: Outfit-SemiBold;
+    src: url("../font/Outfit/Outfit-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: Outfit-Thin;
+    src: url("../font/Outfit/Outfit-Thin.ttf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #d6e2f0;
+    font-family: 'Outfit';
+}
+
+.main-container {
+    height: 100vh;
+}
+
+.container {
+    width: 17%;
+}
+
+.bg {
+    background: hsl(0, 0%, 100%);
+    box-shadow: 0px 6px 15px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.main {
+    font-weight: 700;
+    font-size: 20px;
+    color: hsl(218, 44%, 22%);
+    font-family: 'Outfit-SemiBold';
+    line-height: 25px;
+}
+
+.second {
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    line-height: 17px;
+}
+
+@media (max-width: 930px) {
+    .container {
+        width: 70%;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 100%;
+    }
+    
+}
